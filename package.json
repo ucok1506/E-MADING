@@ -1,0 +1,10 @@
+{
+  "name": "mading-screenshots",
+  "version": "1.0.0",
+  "scripts": {
+    "screenshots": "node take-screenshots.js"
+  },
+  "dependencies": {
+    "puppeteer": "^21.0.0"
+  }
+}

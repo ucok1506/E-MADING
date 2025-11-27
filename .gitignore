@@ -1,0 +1,55 @@
+# Laravel specific
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+.env
+.env.backup
+.phpunit.result.cache
+docker-compose.override.yml
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+storage/logs/*.log
+
+# Cache
+bootstrap/cache/*.php
+storage/framework/cache/*
+storage/framework/sessions/*
+storage/framework/views/*
+
+# Uploads (keep structure but ignore content)
+public/uploads/*
+!public/uploads/.gitkeep
+
+# Database
+*.sqlite
+*.db
+
+# Backup files
+*.bak
+*.backup
+
+# Screenshots (optional - comment out if you want to include them)
+screenshots/*.png
+screenshots/*.jpg
+screenshots/*.jpeg
+
+# Temporary files
+*.tmp
+*.temp

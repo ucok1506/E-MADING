@@ -1,0 +1,217 @@
+/* Custom CSS for E-Mading */
+
+/* Icon sizes */
+.icon-sm {
+    font-size: 0.8rem;
+}
+
+.icon-md {
+    font-size: 1.2rem;
+}
+
+.icon-lg {
+    font-size: 1.5rem;
+}
+
+.icon-xl {
+    font-size: 2rem;
+}
+
+.icon-xxl {
+    font-size: 3rem;
+}
+
+/* Card improvements */
+.card {
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Button improvements */
+.btn {
+    border-radius: 6px;
+}
+
+.btn-sm {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+}
+
+/* Navbar brand improvements */
+.navbar-brand img {
+    border-radius: 4px;
+}
+
+/* Footer improvements */
+footer {
+    margin-top: auto;
+}
+
+/* Responsive improvements */
+@media (max-width: 768px) {
+    .card-img-top {
+        height: 150px !important;
+    }
+    
+    .navbar-brand div {
+        font-size: 0.9rem;
+    }
+    
+    .navbar-brand small {
+        font-size: 0.6rem !important;
+    }
+}
+
+/* Like button animation */
+.like-btn {
+    transition: all 0.2s ease;
+}
+
+.like-btn:hover {
+    transform: scale(1.05);
+}
+
+/* Pagination improvements */
+.pagination {
+    margin-bottom: 0;
+}
+
+.page-link {
+    border-radius: 6px;
+    margin: 0 2px;
+    border: 1px solid #dee2e6;
+}
+
+.page-item.active .page-link {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+/* Search form improvements */
+.input-group .form-control {
+    border-right: 0;
+}
+
+.input-group .btn {
+    border-left: 0;
+}
+
+/* Badge improvements */
+.badge {
+    font-size: 0.75em;
+    padding: 0.35em 0.65em;
+}
+
+/* Article content improvements */
+.article-content {
+    line-height: 1.6;
+    font-size: 1rem;
+}
+
+.article-content p {
+    margin-bottom: 1rem;
+}
+
+/* Sidebar improvements */
+.sidebar {
+    min-height: calc(100vh - 56px);
+    padding-top: 1rem;
+}
+
+.sidebar .nav-link {
+    color: #495057;
+    padding: 0.5rem 1rem;
+    margin-bottom: 0.25rem;
+    border-radius: 6px;
+}
+
+.sidebar .nav-link:hover {
+    background-color: #f8f9fa;
+    color: #0d6efd;
+}
+
+.sidebar .nav-link.active {
+    background-color: #0d6efd;
+    color: white;
+}
+
+/* Dashboard card improvements */
+.dashboard-card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.dashboard-card .card-body {
+    padding: 1.5rem;
+}
+
+/* Alert improvements */
+.alert {
+    border: none;
+    border-radius: 8px;
+}
+
+/* Form improvements */
+.form-control, .form-select {
+    border-radius: 6px;
+    border: 1px solid #ced4da;
+}
+
+.form-control:focus, .form-select:focus {
+    border-color: #86b7fe;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+/* Loading animation */
+.loading {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 3px solid rgba(255,255,255,.3);
+    border-radius: 50%;
+    border-top-color: #fff;
+    animation: spin 1s ease-in-out infinite;
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
+/* Notification badge */
+.notification-badge {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background: #dc3545;
+    color: white;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    font-size: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Status badges */
+.status-published {
+    background-color: #198754 !important;
+}
+
+.status-pending {
+    background-color: #ffc107 !important;
+    color: #000 !important;
+}
+
+.status-draft {
+    background-color: #6c757d !important;
+}
+
+.status-rejected {
+    background-color: #dc3545 !important;
+}
